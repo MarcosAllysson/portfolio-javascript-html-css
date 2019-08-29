@@ -9,9 +9,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 
-    <title> Fernando Alves </title>
+    <title> Fernando Alves | Contatos </title>
 
     <style type="text/css">
+        #footer{ background-color: black; width: 100%; height: 300px; clear: both; display: block; 
+            border: 1px solid #000; min-height: 100px; }
+        #h5Footer{ color: white; text-decoration: none; text-align: center; }
+        #pFooter{ color: white; text-align: start;}
+
+        .title { text-align: center; padding-bottom: 30px; }
+
+        p { text-indent: 30px; text-align: center; }
+
+        #content{ width: 100%; height: 400px; padding-top: 100px; }
     </style>
 
 </head>
@@ -26,32 +36,28 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="sobre.html"> Sobre <span
-                        class="sr-only">(current)</span> </a>
-                <a class="nav-item nav-link active" href="contato.html"> Contato <span class="sr-only">(current)</span> </a>
+                <a class="nav-item nav-link active" href="sobre.html"> Sobre <span class="sr-only">(current)</span> </a>
+                <a class="nav-item nav-link active" href="contato.html"> Contato <span class="sr-only">(current)</span>
+                </a>
             </div>
         </div>
     </nav>
 
-    <p>
-
-        (61) 9 9426-8729
-        (61) 9 8369-4055
-
-
-        Nandualves8109@gmail.com
-
-
-        Linkedin: Fernando Alves https://.linkedin.com/in/fernando-alves-305a72162
-
-    </p>
+    <div id="content">
+        <h3 class="title"> Contatos </h3>
+        <p> <b> Celular: </b> (61) 9 9426-8729 </p>
+        <p> <b> Celular: </b> (61) 9 8369-4055 </p>
+        <p> <b> Email: </b> Nandualves8109@gmail.com </p>
+        <p> <b> Linkedin: </b> <a href="https://linkedin.com/in/fernando-alves-305a72162" target="_blank"> 
+            Fernando Alves </a> </p>
+    </div>
 
     <!-- footer -->
     <div class="card">
         <!-- <h5 class="card-header">Rodapé</h5> -->
-        <div class="card-body">
-            <h5 class="card-title">Contato</h5>
-            <p class="card-text">Alguma coisa aqui... </p>
+        <div class="card-body" id="footer">
+            <h5 class="card-title" id="h5Footer"> <a href="contato.html" id="h5Footer"> Contato </a> </h5>
+            <h5 class="card-text" id="h5Footer"> <a href="sobre.html" id="h5Footer"> Fernando Alves </a> </h5>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
         </div>
     </div>
